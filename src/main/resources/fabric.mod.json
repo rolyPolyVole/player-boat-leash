@@ -1,0 +1,23 @@
+{
+    "schemaVersion": 1,
+    "id": "player-boat-leash",
+    "version": "${version}",
+    "name": "Player Boat Leash",
+    "description": "Allows players in boats to be moved around by leashes",
+    "authors": [],
+    "contact": {},
+    "license": "All-Rights-Reserved",
+    "environment": "*",
+    "mixins": [
+        {
+            "config": "player-boat-leash.mixins.json",
+            "environment": "*"
+        }
+    ],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "fabric-language-kotlin": ">=${kotlin_loader_version}",
+        "fabric-api": "*",
+        "minecraft": "${minecraft_version}"
+    }
+}
