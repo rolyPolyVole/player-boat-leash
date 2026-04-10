@@ -7,6 +7,7 @@
     "authors": [],
     "contact": {},
     "license": "All-Rights-Reserved",
+    "icon": "player_boat_leash_icon.png",
     "environment": "*",
     "mixins": [
         {
