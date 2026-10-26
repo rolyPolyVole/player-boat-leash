@@ -52,6 +52,12 @@ repositories {
 dependencies {
     minecraft("com.mojang:minecraft:${project.property("minecraft_version")}")
     implementation("net.fabricmc:fabric-loader:${project.property("loader_version")}")
+
+    testImplementation("net.fabricmc:fabric-loader-junit:${project.property("loader_version")}")
+}
+
+tasks.test {
+    useJUnitPlatform()
 }
 
 tasks.processResources {
